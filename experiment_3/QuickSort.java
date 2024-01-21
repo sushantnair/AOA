@@ -38,7 +38,7 @@ public class QuickSort {
             arr[i] = randomnumber.nextInt(1000);
             System.out.print("\t" + arr[i]);
         }
-        EXPT_03_QuickSort obj = new EXPT_03_QuickSort();
+        QuickSort obj = new QuickSort();
         long start = System.currentTimeMillis();
         obj.sub_problem_definition(arr, 0, n - 1);
         long end = System.currentTimeMillis();
